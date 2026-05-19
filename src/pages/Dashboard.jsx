@@ -347,8 +347,7 @@ export default function Dashboard() {
         </div>
       </div>}
 
-    {/* MODALS */}
-  {/* TAKE PAYOUT MODAL */}
+    {/* TAKE PAYOUT MODAL */}
   {payoutAcct&&(()=>{
     const firm=FIRMS[payoutAcct.firm]; const plan=firm?.plans[payoutAcct.plan];
     const current=parseFloat(payoutAcct.currentProfit)||0;
