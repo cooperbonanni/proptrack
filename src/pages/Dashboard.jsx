@@ -347,8 +347,6 @@ export default function Dashboard() {
         </div>
       </div>}
 
-    </div>
-
     {/* MODALS */}
   {/* TAKE PAYOUT MODAL */}
   {payoutAcct&&(()=>{
@@ -622,9 +620,6 @@ export default function Dashboard() {
       </div>
     </div>
   </div>}
-
-  </div>;
-}
 
   </div>;
 }
